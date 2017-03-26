@@ -1,0 +1,303 @@
+/*
+li	{
+	font-family: poiret one;
+	//font-family: syncopate;
+	//font-family:  josefin sans;
+}
+*/
+
+
+/*-------------different settings for small screen--------*/
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size:  130% !important;
+        display: inline-flex;
+    }
+    li{
+    	font-size:15px !important;
+    	float: left !important;
+    }
+
+    .name{
+    	opacity: 1 !important;
+  		font-size: 30px;
+    }
+
+    img{
+    	width:340px !important;
+    	margin-left: 30px;
+    }
+
+    span{
+    	font-size: 23px !important;
+    }
+
+    li:last-child{
+    	opacity: 0!important;
+    }
+
+    .row{
+    	margin-top: 65px !important;
+    }
+
+
+
+}
+
+/*-------------Nav bar -----------*/
+ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:  hidden;
+  background-color: #323531;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:  60px;
+  z-index: 9999;
+}
+
+li{
+  float: right;
+  border-left: 1px solid #bbb;
+  font-family: poiret one;
+  font-size:  24px;
+}
+
+li:last-child{
+  float: left;
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 38px;
+  
+}
+
+li a:hover {
+  background-color: #f2f2f2;
+  font-weight: ;
+  color: #323531;
+}
+
+/*------------End of Nav Bar------------*/
+
+
+
+h2{
+	font-family: josefin sans !important;
+}
+
+.row {
+	text-align: center;
+	color: #323531;
+	margin-top: 120px;
+	font-family:  josefin sans;
+}
+
+span{
+	font-size: 30px;
+}
+
+/*--------blink code--------*/
+.flash{
+	animation: blink 3s;
+    animation-iteration-count: infinite;
+    }
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*Fade in code*/
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+.first{
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+    }
+
+ .second{
+ 	-webkit-animation: fadein 6s; 
+       -moz-animation: fadein 6s; 
+        -ms-animation: fadein 6s; 
+         -o-animation: fadein 6s; 
+            animation: fadein 6s;
+ }
+
+ .third{
+ 	-webkit-animation: fadein 9s; 
+       -moz-animation: fadein 9s; 
+        -ms-animation: fadein 9s; 
+         -o-animation: fadein 9s; 
+            animation: fadein 9s;
+ }
+
+ .fourth{
+ 	-webkit-animation: fadein 12s; 
+       -moz-animation: fadein 12s; 
+        -ms-animation: fadein 12s; 
+         -o-animation: fadein 12s; 
+            animation: fadein 12s;
+ }
+
+ .fifth{
+ 	-webkit-animation: fadein 15s; 
+       -moz-animation: fadein 15s; 
+        -ms-animation: fadein 15s; 
+         -o-animation: fadein 15s; 
+            animation: fadein 15s;
+ }
+/*------------End Fade in code------------*/
+
+/*-----hides name when screnn is full-------*/
+.name{
+    	opacity: 0;
+  	}
+
+img{
+width: 380px;
+float: left;
+margin-top: 40px;
+border-radius: 20%;
+}
+
+/*----------sets background for --- page--------*/
+.pg2{
+	margin-top: 20%;
+	background-color: #e6e6e6;
+	
+	
+}
+
+button{
+	text-align: center;
+	background-color: white;
+	font-family: poiret one !important;
+	font-size: 28px !important;
+	width: 200px;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+}
+
+.button1:hover {
+    background-color: #323531;
+    color: white;
+}
+
+.jumbotron{
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 0px !important;
+
+}
+
+.portfoliobox1 {
+  height: 249px;
+  width: 250px;
+  border: 2px solid grey;
+  margin: 0 auto;
+  color: transparent;
+  border-radius: 8px;
+  font-family: raleway;
+  font-size: 20px;
+  transition-duration: .8s;
+  text-align: center;
+  background-image: url("http://www.bilder-upload.eu/upload/061a87-1477829224.png");
+  background-size: 100%;
+  background-color: grey;
+}
+
+.insidebox1 {
+  transition-duration: .4s;
+  font-size: 20px;
+  font-family: poiret one;
+}
+
+.portfoliobox1:hover .insidebox1 {
+  width: 100%;
+  height: 86px;
+  color: white;
+  background-color: black;
+  border-radius: 6px 6px 0px 0px;
+  opacity: .8;
+}
+  
+
+.r1{
+	margin-top: 0 !important;
+}
+
+.resume{
+	margin: 20px !important;
+	font-size: 40px;
+}
+
+input{
+	height: 50px;
+	width: 80%;
+	font-size: 20px !important;
+}
+
+textarea{
+	height: 150px;
+	width: 80%;
+	font-size: 20px !important;
+}
+
+.links{
+	margin-top: 20px !important;
+	font-size: 60px;
+	color: grey;
+}
+
+
