@@ -246,7 +246,7 @@ button{
   font-size: 20px;
   transition-duration: .8s;
   text-align: center;
-  background-image: url("http://www.bilder-upload.eu/upload/061a87-1477829224.png");
+  background-image: url("/images/randomquote.PNG");
   background-size: 100%;
   background-color: grey;
 }
