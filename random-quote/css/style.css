@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+  background:#2B2B2B
+}
+
+.jumbotron{
+  margin: 5%;
+}
+#quoteText{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#quoteBox{
+  background-color: ;
+   
+}
+
+.btn {
+  border-radius: 30%;
+  background-color: 
+}
+
+/*
+@media screen and (max-width: 480px) {
+    .quote {font-size: 3.3vw;}
+    
+}*/
