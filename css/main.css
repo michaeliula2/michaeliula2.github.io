@@ -262,7 +262,7 @@ button{
   font-size: 20px;
   transition-duration: .8s;
   text-align: center;
-  background-image: url("/images/wikiPic");
+  background-image: url("/images/wikiPic.PNG");
   background-size: 100%;
   background-color: grey;
 }
