@@ -243,22 +243,6 @@ button{
   background-color: grey;
 }
 
-.portfoliobox3 {
-  height: 249px;
-  width: 250px;
-  border: 2px solid grey;
-  margin: 0 auto;
-  color: transparent;
-  border-radius: 8px;
-  font-family: raleway;
-  font-size: 20px;
-  transition-duration: .8s;
-  text-align: center;
-  background-image: url("/images/wikiPic.PNG");
-  background-size: 100%;
-  background-color: grey;
-}
-
 .portfoliobox2 {
   height: 249px;
   width: 250px;
@@ -270,10 +254,27 @@ button{
   font-size: 20px;
   transition-duration: .8s;
   text-align: center;
-  background-image: url("/images/weatherApp.PNG");
+  background-image: url("/images/weatherApp.png");
   background-size: 100%;
   background-color: grey;
 }
+.portfoliobox3 {
+  height: 249px;
+  width: 250px;
+  border: 2px solid grey;
+  margin: 0 auto;
+  color: transparent;
+  border-radius: 8px;
+  font-family: raleway;
+  font-size: 20px;
+  transition-duration: .8s;
+  text-align: center;
+  background-image: url("/images/wikiPic.png");
+  background-size: 100%;
+  background-color: grey;
+}
+
+
 
 .insidebox1 {
   transition-duration: .4s;
