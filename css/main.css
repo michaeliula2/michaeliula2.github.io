@@ -26,9 +26,7 @@
     	font-size: 23px !important;
     }
 
-    li:last-child{
-    	opacity: 0!important;
-    }
+    
 
     .row{
     	margin-top: 65px !important;
