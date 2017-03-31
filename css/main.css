@@ -187,10 +187,6 @@ span{
  }
 /*------------End Fade in code------------*/
 
-/*-----hides name when screnn is full-------*/
-.name{
-    	opacity: 0;
-  	}
 
 img{
 width: 380px;
@@ -203,8 +199,6 @@ border-radius: 20%;
 .pg2{
 	margin-top: 20%;
 	background-color: #e6e6e6;
-	
-	
 }
 
 button{
@@ -249,7 +243,7 @@ button{
   background-color: grey;
 }
 
-.portfoliobox2 {
+.portfoliobox3 {
   height: 249px;
   width: 250px;
   border: 2px solid grey;
