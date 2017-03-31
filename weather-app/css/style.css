@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  color: yellow;
+  margin-top: 10%;
+  
+  font-family: 'Questrial', sans-serif;
+}
+
+.wrapper{
+  background: rgb(20, 44, 100);
+  opacity: 0.8;
+  
+}
+
+.well{
+  background: rgb(2, 4, 100);
+  border-radius: 20%;
+  border:inset;
+}
